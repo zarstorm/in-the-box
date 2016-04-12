@@ -1,0 +1,270 @@
+
+<TaskerData sr="" dvi="1" tv="4.8u1m">
+<dmetric>720.0,1280.0</dmetric>
+<Profile sr="prof145" ve="2">
+<cdate>1454724139607</cdate>
+<clp>true</clp>
+<edate>1459819746490</edate>
+<id>145</id>
+<limit>true</limit>
+<mid0>146</mid0>
+<nme>Fash For Find My Phone</nme>
+<Event sr="con0" ve="2">
+<code>7</code>
+<pri>0</pri>
+<Int sr="arg0" val="0"/>
+<Str sr="arg1" ve="3">%SMSRF</Str>
+<Str sr="arg2" ve="3">flash</Str>
+</Event>
+</Profile>
+<Profile sr="prof3" ve="2">
+<cdate>1454718825419</cdate>
+<clp>true</clp>
+<edate>1459819745870</edate>
+<id>3</id>
+<limit>true</limit>
+<mid0>144</mid0>
+<nme>Beep For Find My Phone</nme>
+<Event sr="con0" ve="2">
+<code>7</code>
+<pri>0</pri>
+<Int sr="arg0" val="0"/>
+<Str sr="arg1" ve="3">%SMSRF</Str>
+<Str sr="arg2" ve="3">beep</Str>
+</Event>
+</Profile>
+<Profile sr="prof77" ve="2">
+<cdate>1454709428496</cdate>
+<clp>true</clp>
+<edate>1459819745180</edate>
+<id>77</id>
+<limit>true</limit>
+<mid0>106</mid0>
+<nme>Find My Phone Pro</nme>
+<Event sr="con0" ve="2">
+<code>7</code>
+<pri>0</pri>
+<Int sr="arg0" val="0"/>
+<Str sr="arg1" ve="3">%SMSRF</Str>
+<Str sr="arg2" ve="3">Findmyphone</Str>
+</Event>
+</Profile>
+<Project sr="proj0" ve="2">
+<cdate>1454709238459</cdate>
+<name>Find My Phone Pro</name>
+<pids>145,77,3</pids>
+<scenes>Find My Phone Pro Scene,Variable Query</scenes>
+<tids>146,106,144,165</tids>
+<Kid sr="Kid">
+<feat0>android.hardware.location:y</feat0>
+<feat1>android.hardware.location.network:y</feat1>
+<feat2>android.hardware.location.gps:y</feat2>
+<launchID>106</launchID>
+<pkg>find.phone.pro</pkg>
+<vnme>1.2</vnme>
+<vnum>17</vnum>
+</Kid>
+<Img sr="icon" ve="2">
+<nme>wifi</nme>
+<pkg>net.dinglisch.android.ipack.crystalhd</pkg>
+</Img>
+</Project>
+<Scene sr="sceneFind My Phone Pro Scene">
+<cdate>1460435525198</cdate>
+<edate>1460435928102</edate>
+<heightLand>-1</heightLand>
+<heightPort>1264</heightPort>
+<nme>Find My Phone Pro Scene</nme>
+<widthLand>-1</widthLand>
+<widthPort>665</widthPort>
+<ButtonElement sr="elements0" ve="3">
+<clickTask>165</clickTask>
+<flags>4</flags>
+<geom>0,0,663,1261,236,427,225,425</geom>
+<Str sr="arg0" ve="3">Button1</Str>
+<Str sr="arg1" ve="3">Enter the word you want to use to find your phone</Str>
+<Int sr="arg2" val="19"/>
+<Int sr="arg3" val="100"/>
+<Str sr="arg4" ve="3">#FF0024FF</Str>
+<Str sr="arg5" ve="3"/>
+<Int sr="arg6" val="0"/>
+<Img sr="arg7" ve="2"/>
+</ButtonElement>
+</Scene>
+<Scene sr="sceneVariable Query">
+<cdate>1453176640657</cdate>
+<edate>1453271021925</edate>
+<heightLand>-1</heightLand>
+<heightPort>427</heightPort>
+<nme>Variable Query</nme>
+<widthLand>-1</widthLand>
+<widthPort>495</widthPort>
+<TextElement sr="elements0" ve="3">
+<flags>4</flags>
+<geom>9,0,486,108,6,0,324,72</geom>
+<Str sr="arg0" ve="3">Title</Str>
+<Str sr="arg1" ve="3">Title</Str>
+<Int sr="arg2" val="22"/>
+<Int sr="arg3"/>
+<Str sr="arg4" ve="3">#FF0099CC</Str>
+<Str sr="arg5" ve="3"/>
+<Int sr="arg6" val="3"/>
+<Int sr="arg7"/>
+<Int sr="arg8"/>
+</TextElement>
+<RectElement sr="elements1">
+<flags>4</flags>
+<geom>0,108,495,4,0,108,495,4</geom>
+<Str sr="arg0" ve="3">Header</Str>
+<Int sr="arg1" val="0"/>
+<Str sr="arg2" ve="3">#77333333</Str>
+<Str sr="arg3" ve="3"/>
+<Int sr="arg4" val="0"/>
+<Str sr="arg5" ve="3">#FF000000</Str>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</RectElement>
+<EditTextElement sr="elements2" ve="3">
+<flags>13</flags>
+<geom>21,174,453,108,21,174,453,108</geom>
+<Str sr="arg0" ve="3">TextEdit1</Str>
+<Str sr="arg1" ve="3"/>
+<Int sr="arg2" val="18"/>
+<Int sr="arg3"/>
+<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+<Str sr="arg5" ve="3"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7"/>
+<Int sr="arg8" val="1000"/>
+</EditTextElement>
+<RectElement sr="elements3">
+<flags>4</flags>
+<geom>0,337,495,4,0,337,495,4</geom>
+<Str sr="arg0" ve="3">Footer</Str>
+<Int sr="arg1" val="0"/>
+<Str sr="arg2" ve="3">#77333333</Str>
+<Str sr="arg3" ve="3"/>
+<Int sr="arg4" val="0"/>
+<Str sr="arg5" ve="3">#FF000000</Str>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</RectElement>
+<ImageElement sr="elements4" ve="2">
+<clickTask>-936</clickTask>
+<flags>4</flags>
+<geom>78,337,90,90,78,337,90,90</geom>
+<Str sr="arg0" ve="3">Accept</Str>
+<Img sr="arg1" ve="2">
+<nme>hd_navigation_accept</nme>
+</Img>
+<Int sr="arg2" val="255"/>
+<Str sr="arg3" ve="3">#FF0099CC</Str>
+</ImageElement>
+<ImageElement sr="elements5" ve="2">
+<clickTask>-936</clickTask>
+<flags>4</flags>
+<geom>327,337,90,90,327,337,90,90</geom>
+<Str sr="arg0" ve="3">Cancel</Str>
+<Img sr="arg1" ve="2">
+<nme>hd_content_remove</nme>
+</Img>
+<Int sr="arg2" val="255"/>
+<Str sr="arg3" ve="3">#FF0099CC</Str>
+</ImageElement>
+<PropertiesElement sr="props">
+<Int sr="arg0" val="1"/>
+<Int sr="arg1" val="0"/>
+<Str sr="arg2" ve="3">#FF000000</Str>
+<Int sr="arg3" val="0"/>
+<Str sr="arg4" ve="3">Variable Query</Str>
+<Str sr="arg5" ve="3"/>
+<Img sr="arg6" ve="2"/>
+<Str sr="arg7" ve="3"/>
+</PropertiesElement>
+</Scene>
+<Task sr="task106">
+<cdate>1454709472750</cdate>
+<edate>1455979741537</edate>
+<id>106</id>
+<nme>Gps Find Location</nme>
+<Action sr="act0" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%LOC</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act1" ve="7">
+<code>902</code>
+<Int sr="arg0" val="2"/>
+<Int sr="arg1" val="240"/>
+<Int sr="arg2" val="0"/>
+<Int sr="arg3" val="0"/>
+</Action>
+<Action sr="act2" ve="7">
+<code>41</code>
+<Str sr="arg0" ve="3">%SMSRF</Str>
+<Str sr="arg1" ve="3">http://maps.google.com/maps?z=12&t=m&q=%LOC</Str>
+<Int sr="arg2" val="0"/>
+</Action>
+<Action sr="act3" ve="7">
+<code>41</code>
+<Str sr="arg0" ve="3">%SMSRF</Str>
+<Str sr="arg1" ve="3">
+ALTITUDE, %LOCALT,SPEED, %LOCSPD,BATTERY LEVEL, %BATT,CELL TOWER ID, %CELLID,LAST CALL, %CONAME,NUMBER, %CONUM,DATE, %CODATE,TIME, %COTIME,Duration, %CODUR
+</Str>
+<Int sr="arg2" val="0"/>
+</Action>
+</Task>
+<Task sr="task144">
+<cdate>1454718836843</cdate>
+<edate>1454909120310</edate>
+<id>144</id>
+<nme>Beep</nme>
+<pri>100</pri>
+<Action sr="act0" ve="7">
+<code>307</code>
+<Int sr="arg0" val="15"/>
+<Int sr="arg1" val="0"/>
+<Int sr="arg2" val="0"/>
+</Action>
+<Action sr="act1" ve="7">
+<code>171</code>
+<Int sr="arg0" val="6600"/>
+<Int sr="arg1" val="8463"/>
+<Int sr="arg2" val="100"/>
+<Int sr="arg3" val="3"/>
+</Action>
+</Task>
+<Task sr="task146">
+<cdate>1454724159137</cdate>
+<edate>1454997488955</edate>
+<id>146</id>
+<nme>Flash For Find My Phone</nme>
+<pri>100</pri>
+<Action sr="act0" ve="7">
+<code>525</code>
+<Str sr="arg0" ve="3">Here.</Str>
+<Str sr="arg1" ve="3"/>
+<Img sr="arg2" ve="2"/>
+<Int sr="arg3" val="99"/>
+<Int sr="arg4" val="3"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="2"/>
+</Action>
+</Task>
+<Task sr="task165">
+<cdate>1460435596429</cdate>
+<edate>1460435596429</edate>
+<id>165</id>
+<Action sr="act0" ve="7">
+<code>595</code>
+<Str sr="arg0" ve="3">Input the word you want to use to find your phone</Str>
+<Str sr="arg1" ve="3">%pro</Str>
+<Int sr="arg2" val="0"/>
+<Str sr="arg3" ve="3"/>
+<Str sr="arg4" ve="3"/>
+<Str sr="arg5" ve="3">Variable Query</Str>
+<Int sr="arg6" val="40"/>
+<Int sr="arg7" val="1"/>
+</Action>
+</Task>
+</TaskerData>
